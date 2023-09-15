@@ -3,6 +3,6 @@
 echo " input file name"
 read filename
 
-echo "#!/bin/bash" > ${filename}
+echo "#include \"main.h\"" > ${filename}
 
 chmod +x ${filename}
